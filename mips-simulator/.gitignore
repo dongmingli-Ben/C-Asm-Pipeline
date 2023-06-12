@@ -1,0 +1,12 @@
+*.zip
+*.pdf
+mips1.asm
+.vscode
+*.o
+*.bin
+*.out
+sim
+sim_debug
+*.txt
+test.cpp
+test

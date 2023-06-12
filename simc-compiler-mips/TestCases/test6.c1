@@ -1,0 +1,6 @@
+int a, b;
+a = 2*-------1;
+b = !!!!!!!a;
+printf(a);
+printf(b);
+return;

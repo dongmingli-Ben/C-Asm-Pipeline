@@ -1,0 +1,553 @@
+{
+    "add": {
+        "funct": 32,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rs",
+            "rt"
+        ]
+    },
+    "addu": {
+        "funct": 33,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rs",
+            "rt"
+        ]
+    },
+    "and": {
+        "funct": 36,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rs",
+            "rt"
+        ]
+    },
+    "div": {
+        "funct": 26,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rs",
+            "rt"
+        ]
+    },
+    "divu": {
+        "funct": 27,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rs",
+            "rt"
+        ]
+    },
+    "jalr": {
+        "funct": 9,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rs"
+        ]
+    },
+    "jr": {
+        "funct": 8,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+)",
+        "fields": [
+            "rs"
+        ]
+    },
+    "mfhi": {
+        "funct": 16,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+)",
+        "fields": [
+            "rd"
+        ]
+    },
+    "mflo": {
+        "funct": 18,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+)",
+        "fields": [
+            "rd"
+        ]
+    },
+    "mthi": {
+        "funct": 17,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+)",
+        "fields": [
+            "rs"
+        ]
+    },
+    "mtlo": {
+        "funct": 19,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+)",
+        "fields": [
+            "rs"
+        ]
+    },
+    "mult": {
+        "funct": 24,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rs",
+            "rt"
+        ]
+    },
+    "multu": {
+        "funct": 25,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rs",
+            "rt"
+        ]
+    },
+    "nor": {
+        "funct": 39,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rs",
+            "rt"
+        ]
+    },
+    "or": {
+        "funct": 37,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rs",
+            "rt"
+        ]
+    },
+    "sll": {
+        "funct": 0,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rt",
+            "sa"
+        ]
+    },
+    "sllv": {
+        "funct": 4,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rt",
+            "rs"
+        ]
+    },
+    "slt": {
+        "funct": 42,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rs",
+            "rt"
+        ]
+    },
+    "sltu": {
+        "funct": 43,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rs",
+            "rt"
+        ]
+    },
+    "sra": {
+        "funct": 3,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rt",
+            "sa"
+        ]
+    },
+    "srav": {
+        "funct": 7,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rt",
+            "rs"
+        ]
+    },
+    "srl": {
+        "funct": 2,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rt",
+            "sa"
+        ]
+    },
+    "srlv": {
+        "funct": 6,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rt",
+            "rs"
+        ]
+    },
+    "sub": {
+        "funct": 34,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rs",
+            "rt"
+        ]
+    },
+    "subu": {
+        "funct": 35,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rs",
+            "rt"
+        ]
+    },
+    "syscall": {
+        "funct": 12,
+        "type": "R",
+        "opcode": 0,
+        "regex": "",
+        "fields": [
+            ""
+        ]
+    },
+    "xor": {
+        "funct": 38,
+        "type": "R",
+        "opcode": 0,
+        "regex": "(\\$\\w+), (\\$\\w+), (\\$\\w+)",
+        "fields": [
+            "rd",
+            "rs",
+            "rt"
+        ]
+    },
+    "addi": {
+        "regex": "(\\$\\w+), (\\$\\w+), (-?\\d+)",
+        "fields": [
+            "rt",
+            "rs",
+            "immediate"
+        ],
+        "type": "I",
+        "opcode": 8
+    },
+    "addiu": {
+        "regex": "(\\$\\w+), (\\$\\w+), (-?\\d+)",
+        "fields": [
+            "rt",
+            "rs",
+            "immediate"
+        ],
+        "type": "I",
+        "opcode": 9
+    },
+    "andi": {
+        "regex": "(\\$\\w+), (\\$\\w+), (-?\\d+)",
+        "fields": [
+            "rt",
+            "rs",
+            "immediate"
+        ],
+        "type": "I",
+        "opcode": 12
+    },
+    "beq": {
+        "regex": "(\\$\\w+), (\\$\\w+), (\\w+)",
+        "fields": [
+            "rs",
+            "rt",
+            "label"
+        ],
+        "type": "I",
+        "opcode": 4
+    },
+    "bgez": {
+        "regex": "(\\$\\w+), (\\w+)",
+        "fields": [
+            "rs",
+            "label"
+        ],
+        "type": "I",
+        "opcode": 1
+    },
+    "bgtz": {
+        "regex": "(\\$\\w+), (\\w+)",
+        "fields": [
+            "rs",
+            "label"
+        ],
+        "type": "I",
+        "opcode": 7
+    },
+    "blez": {
+        "regex": "(\\$\\w+), (\\w+)",
+        "fields": [
+            "rs",
+            "label"
+        ],
+        "type": "I",
+        "opcode": 6
+    },
+    "bltz": {
+        "regex": "(\\$\\w+), (\\w+)",
+        "fields": [
+            "rs",
+            "label"
+        ],
+        "type": "I",
+        "opcode": 1
+    },
+    "bne": {
+        "regex": "(\\$\\w+), (\\$\\w+), (\\w+)",
+        "fields": [
+            "rs",
+            "rt",
+            "label"
+        ],
+        "type": "I",
+        "opcode": 5
+    },
+    "lb": {
+        "regex": "(\\$\\w+), (-?\\d+)\\((\\$\\w+)\\)",
+        "fields": [
+            "rt",
+            "immediate",
+            "rs"
+        ],
+        "type": "I",
+        "opcode": 32
+    },
+    "lbu": {
+        "regex": "(\\$\\w+), (-?\\d+)\\((\\$\\w+)\\)",
+        "fields": [
+            "rt",
+            "immediate",
+            "rs"
+        ],
+        "type": "I",
+        "opcode": 36
+    },
+    "lh": {
+        "regex": "(\\$\\w+), (-?\\d+)\\((\\$\\w+)\\)",
+        "fields": [
+            "rt",
+            "immediate",
+            "rs"
+        ],
+        "type": "I",
+        "opcode": 33
+    },
+    "lhu": {
+        "regex": "(\\$\\w+), (-?\\d+)\\((\\$\\w+)\\)",
+        "fields": [
+            "rt",
+            "immediate",
+            "rs"
+        ],
+        "type": "I",
+        "opcode": 37
+    },
+    "lui": {
+        "regex": "(\\$\\w+), (-?\\d+)",
+        "fields": [
+            "rt",
+            "immediate"
+        ],
+        "type": "I",
+        "opcode": 15
+    },
+    "lw": {
+        "regex": "(\\$\\w+), (-?\\d+)\\((\\$\\w+)\\)",
+        "fields": [
+            "rt",
+            "immediate",
+            "rs"
+        ],
+        "type": "I",
+        "opcode": 35
+    },
+    "ori": {
+        "regex": "(\\$\\w+), (\\$\\w+), (-?\\d+)",
+        "fields": [
+            "rt",
+            "rs",
+            "immediate"
+        ],
+        "type": "I",
+        "opcode": 13
+    },
+    "sb": {
+        "regex": "(\\$\\w+), (-?\\d+)\\((\\$\\w+)\\)",
+        "fields": [
+            "rt",
+            "immediate",
+            "rs"
+        ],
+        "type": "I",
+        "opcode": 40
+    },
+    "slti": {
+        "regex": "(\\$\\w+), (\\$\\w+), (-?\\d+)",
+        "fields": [
+            "rt",
+            "rs",
+            "immediate"
+        ],
+        "type": "I",
+        "opcode": 10
+    },
+    "sltiu": {
+        "regex": "(\\$\\w+), (\\$\\w+), (-?\\d+)",
+        "fields": [
+            "rt",
+            "rs",
+            "immediate"
+        ],
+        "type": "I",
+        "opcode": 11
+    },
+    "sh": {
+        "regex": "(\\$\\w+), (-?\\d+)\\((\\$\\w+)\\)",
+        "fields": [
+            "rt",
+            "immediate",
+            "rs"
+        ],
+        "type": "I",
+        "opcode": 41
+    },
+    "sw": {
+        "regex": "(\\$\\w+), (-?\\d+)\\((\\$\\w+)\\)",
+        "fields": [
+            "rt",
+            "immediate",
+            "rs"
+        ],
+        "type": "I",
+        "opcode": 43
+    },
+    "xori": {
+        "regex": "(\\$\\w+), (\\$\\w+), (-?\\d+)",
+        "fields": [
+            "rt",
+            "rs",
+            "immediate"
+        ],
+        "type": "I",
+        "opcode": 14
+    },
+    "lwl": {
+        "regex": "(\\$\\w+), (-?\\d+)\\((\\$\\w+)\\)",
+        "fields": [
+            "rt",
+            "immediate",
+            "rs"
+        ],
+        "type": "I",
+        "opcode": 34
+    },
+    "lwr": {
+        "regex": "(\\$\\w+), (-?\\d+)\\((\\$\\w+)\\)",
+        "fields": [
+            "rt",
+            "immediate",
+            "rs"
+        ],
+        "type": "I",
+        "opcode": 38
+    },
+    "swl": {
+        "regex": "(\\$\\w+), (-?\\d+)\\((\\$\\w+)\\)",
+        "fields": [
+            "rt",
+            "immediate",
+            "rs"
+        ],
+        "type": "I",
+        "opcode": 42
+    },
+    "swr": {
+        "regex": "(\\$\\w+), (-?\\d+)\\((\\$\\w+)\\)",
+        "fields": [
+            "rt",
+            "immediate",
+            "rs"
+        ],
+        "type": "I",
+        "opcode": 46
+    },
+    "j": {
+        "regex": "(\\w+)",
+        "fields": [
+            "label"
+        ],
+        "type": "J",
+        "opcode": 2
+    },
+    "jal": {
+        "regex": "(\\w+)",
+        "fields": [
+            "label"
+        ],
+        "type": "J",
+        "opcode": 3
+    }
+}

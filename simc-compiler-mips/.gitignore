@@ -1,0 +1,14 @@
+*.tar
+*.zip
+.vscode
+*.texi
+learning
+test.c
+tutorials
+test
+sim_c.*.c
+sim_c.*.h
+comp
+comp_debug
+*.asm
+*.pdf
